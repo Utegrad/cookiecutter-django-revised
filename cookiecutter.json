@@ -1,0 +1,5 @@
+{
+  "project_name": "CookieCutter Basic Django Project with Custom User Model",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author": "your-email-address@someplace.com"
+}
