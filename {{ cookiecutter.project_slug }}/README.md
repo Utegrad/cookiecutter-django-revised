@@ -7,8 +7,18 @@ project structure.
 * Implements a custom user model in an `accounts` app.
 * Uses an initial folder structure that places settings and base URL configuration in a `common` package instead of 
   naming it after the project.
-* Includes a number of settings needed for secure deployment.
 * Includes the Django Debug Toolbar when running with `DEBUG=True`
+
+TODO:
+* Include a number of settings needed for secure deployment.
+* Setup the database configuration with `env.db()`
+
+## Usage
+
+* Set a `SECRET_KEY` in the `src/.env` file
+* Set the database connection settings
+* run `python manage.py migrate`
+
 
 ## Design Decisions
 

@@ -9,22 +9,9 @@ project structure.
   naming it after the project.
 * Includes a number of settings needed for secure deployment.
 
-## Design Decisions
+## Usage
 
-* [Use argon2 for password hashing](https://docs.djangoproject.com/en/5.0/topics/auth/passwords/#using-argon2-with-django)
-
-It's more secure than the defaults but requires an extra package.
-
-* [Implement a custom user model](https://docs.djangoproject.com/en/5.0/topics/auth/customizing/#using-a-custom-user-model-when-starting-a-project)
-
-Start off with the flexibility to use a custom user model from the start.
-
-* Project Structure
-
+```shell
+cookiecutter https://github.com/Utegrad/cookiecutter-django-revised.git
 ```
-something
-```
-
-* Assumes the use of a PostgreSQL database
-
 
